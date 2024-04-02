@@ -37,6 +37,9 @@ gem 'mail', '>= 2.8.0.rc1'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+# image_processing
+gem 'image_processing', '~> 1.2'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
