@@ -37,8 +37,8 @@ Rails.application.configure do
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
 
-  # Using the local settings for ActiveStorage
-  config.active_storage.service = :local
+  # Using the amazon s3 settings for ActiveStorage
+  config.active_storage.service = :amazon
 
 
   # Debug mode disables concatenation and preprocessing of assets.
